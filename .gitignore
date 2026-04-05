@@ -1,0 +1,6 @@
+node_modules/
+.wrangler/
+
+tmp_chatgpt_share.html
+历史对话消息.txt
+新建 文本文档.txt

@@ -1,0 +1,16 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "telechat-feishu-link",
+	"main": "src/index.js",
+	"compatibility_date": "2026-04-03",
+	"vars": {
+		"TELECHAT_WEBHOOK_PATH": "/telechat-webhook",
+		"FEISHU_WEBHOOK_PATH": "/feishu-webhook",
+		"FEISHU_TARGET_MODE": "open_id"
+	},
+	"kv_namespaces": [
+		{
+			"binding": "linkkv","id": "a3b0b79b455048b883653e3d8a3cb4a1"
+		}
+	]
+}
